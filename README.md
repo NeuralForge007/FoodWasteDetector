@@ -179,7 +179,16 @@ python -m unittest discover tests
 
 ---
 
-## 8. Authors & Academic Citation
+## 8. Dataset Links & Academic Citation
+
+### 8.1 Official Dataset Links (Roboflow Universe)
+- **Roboflow Universe Project:** [https://universe.roboflow.com/project-eyfif/proj3-food-waste-detection](https://universe.roboflow.com/project-eyfif/proj3-food-waste-detection)
+- **Dataset Version 6 (Benchmark Version):** [https://universe.roboflow.com/project-eyfif/proj3-food-waste-detection/dataset/6](https://universe.roboflow.com/project-eyfif/proj3-food-waste-detection/dataset/6)
+
+### 8.2 Research Paper & Reference Repository
+- **MDPI Applied Sciences (2025):** [https://www.mdpi.com/2076-3417/15/13/7137](https://www.mdpi.com/2076-3417/15/13/7137)
+- **Authors' GitHub Repository:** [https://github.com/joaopferreira19/Food-Waste-Detection-using-YOLOv11](https://github.com/joaopferreira19/Food-Waste-Detection-using-YOLOv11)
+
 ```bibtex
 @article{ferreira2025foodwaste,
   title={Food Waste Detection in Canteen Plates Using YOLOv11},
