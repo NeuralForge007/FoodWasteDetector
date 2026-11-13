@@ -1,0 +1,86 @@
+class_id,class_name,category,annotation_count,images_containing_class,min_annotations_per_image,max_annotations_per_image,frequency_percentage
+58,plate,Non-edible Materials,164,144,1,3,14.26
+35,garbage,Non-edible Materials,100,48,1,6,8.7
+31,fork,Non-edible Materials,96,79,1,4,8.35
+42,knife,Non-edible Materials,83,73,1,3,7.22
+63,rice,Cereals and Starches,76,55,1,5,6.61
+6,black bean,Vegetables,42,4,1,27,3.65
+55,pasta,Cereals and Starches,36,14,1,9,3.13
+27,cup,Non-edible Materials,32,28,1,2,2.78
+21,chicken steak,Protein and Meat,30,19,1,7,2.61
+81,vegetables,Vegetables,28,25,1,2,2.43
+76,tomato,Vegetables,28,18,1,4,2.43
+70,spoon,Non-edible Materials,24,22,1,2,2.09
+20,chicken,Protein and Meat,23,16,1,3,2.0
+50,mushrooms,Vegetables,20,6,1,14,1.74
+11,bread,Cereals and Starches,20,9,1,6,1.74
+69,spaghetti,Cereals and Starches,18,12,1,4,1.57
+25,coffee cup,Non-edible Materials,16,14,1,2,1.39
+3,baked potatoes,Cereals and Starches,16,7,1,4,1.39
+75,toasted bread,Cereals and Starches,14,7,1,5,1.22
+32,french fries,Cereals and Starches,14,7,1,3,1.22
+73,stewed veal,Protein and Meat,14,9,1,3,1.22
+34,fried egg,Protein and Meat,13,13,1,1,1.13
+83,water cup,Non-edible Materials,12,12,1,1,1.04
+67,soup,Sauces and Condiments,12,10,1,2,1.04
+24,coffee,Beverages,11,10,1,2,0.96
+44,lettuce,Vegetables,11,10,1,2,0.96
+12,breaded,Protein and Meat,9,6,1,3,0.78
+65,scrambled eggs,Protein and Meat,9,9,1,1,0.78
+49,minced meat,Protein and Meat,9,3,1,6,0.78
+68,soupbowl,Non-edible Materials,8,7,1,2,0.7
+59,pork,Protein and Meat,8,7,1,2,0.7
+8,board,Non-edible Materials,8,8,1,1,0.7
+19,cheese,Dairy Products,8,3,1,4,0.7
+17,carrot,Vegetables,7,5,1,3,0.61
+10,bowl,Non-edible Materials,7,7,1,1,0.61
+62,pork loin,Protein and Meat,7,5,1,2,0.61
+74,strawberry,Fruits,7,4,1,3,0.61
+22,chips,Cereals and Starches,6,4,1,2,0.52
+40,grilled steak,Protein and Meat,6,6,1,1,0.52
+4,banana,Fruits,6,3,1,3,0.52
+16,cake,Cereals and Starches,6,6,1,1,0.52
+57,pizza,Cereals and Starches,6,5,1,2,0.52
+71,steak,Protein and Meat,5,4,1,2,0.43
+72,steaks with mushrooms,Protein and Meat,5,3,1,2,0.43
+64,salmon,Protein and Meat,4,4,1,1,0.35
+66,scrambled eggs with bacon,Protein and Meat,4,3,1,2,0.35
+9,boiled egg,Protein and Meat,3,1,3,3,0.26
+79,tuna with pasta,Protein and Meat,3,3,1,1,0.26
+36,gelatin,Dairy Products,3,3,1,1,0.26
+77,tuna,Protein and Meat,3,1,3,3,0.26
+0,apple,Fruits,2,2,1,1,0.17
+2,bacon,Protein and Meat,2,2,1,1,0.17
+15,cabidela rice,Cereals and Starches,2,2,1,1,0.17
+56,pineapple,Fruits,2,2,1,1,0.17
+37,grape,Fruits,2,2,1,1,0.17
+45,lime,Fruits,2,2,1,1,0.17
+26,cucumber,Vegetables,2,2,1,1,0.17
+7,blueberries,Fruits,2,1,2,2,0.17
+13,brocolis,Vegetables,2,1,2,2,0.17
+23,chorizo,Protein and Meat,2,1,2,2,0.17
+54,onion,Vegetables,2,1,2,2,0.17
+28,cutlet,Protein and Meat,2,1,2,2,0.17
+46,mashed potatoes,Cereals and Starches,2,2,1,1,0.17
+47,meatballs,Protein and Meat,2,1,2,2,0.17
+48,melon,Fruits,2,2,1,1,0.17
+18,cereals,Cereals and Starches,1,1,1,1,0.09
+14,cabbage,Vegetables,1,1,1,1,0.09
+5,beans,Vegetables,1,1,1,1,0.09
+1,asparagus,Vegetables,1,1,1,1,0.09
+52,olives,Vegetables,1,1,1,1,0.09
+51,mussel,Protein and Meat,1,1,1,1,0.09
+41,ham,Protein and Meat,1,1,1,1,0.09
+43,lasagna,Cereals and Starches,1,1,1,1,0.09
+39,grilled chop,Protein and Meat,1,1,1,1,0.09
+38,greens,Vegetables,1,1,1,1,0.09
+29,fish,Protein and Meat,1,1,1,1,0.09
+33,fried cod,Protein and Meat,1,1,1,1,0.09
+30,fish hake,Protein and Meat,1,1,1,1,0.09
+61,pork intestines,Protein and Meat,1,1,1,1,0.09
+53,omelet,Protein and Meat,1,1,1,1,0.09
+60,pork belly,Protein and Meat,1,1,1,1,0.09
+80,turkey steak,Protein and Meat,1,1,1,1,0.09
+78,tuna with mushrooms,Protein and Meat,1,1,1,1,0.09
+82,water,Beverages,1,1,1,1,0.09
+84,watermelon,Fruits,1,1,1,1,0.09

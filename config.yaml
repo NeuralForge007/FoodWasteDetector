@@ -1,0 +1,45 @@
+project:
+  name: "FOODWISE AI"
+  title: "AI-Based Food Waste Detection and Categorization System Using YOLOv11 Instance Segmentation"
+  version: "1.0.0"
+  research_reference:
+    paper: "Food Waste Detection in Canteen Plates Using YOLOv11 (MDPI Applied Sciences 2025)"
+    authors: "João Ferreira, Paulino Cerqueira, Jorge Ribeiro"
+    github: "https://github.com/joaopferreira19/Food-Waste-Detection-using-YOLOv11"
+    roboflow_universe: "https://universe.roboflow.com/project-eyfif/proj3-food-waste-detection"
+
+dataset:
+  workspace: "project-eyfif"
+  project: "proj3-food-waste-detection"
+  version: 6
+  format: "yolov11" # or yolov8 compatible instance segmentation format
+  raw_dir: "data/raw/roboflow"
+  processed_dir: "data/processed"
+  splits:
+    train_ratio: 0.60
+    val_ratio: 0.23
+    test_ratio: 0.17
+
+training:
+  model_variant: "yolo11s-seg.pt" # Default balance for 4GB VRAM / CPU fallback
+  reference_variant: "yolo11l-seg.pt"
+  pretrained_weights: "models/yolov11-x-weights-v6.pt"
+  imgsz: 640
+  epochs: 30
+  batch_size: 4
+  learning_rate: 0.01
+  device: "auto" # Will select 'cuda:0' if CUDA available else 'cpu'
+  workers: 2
+  save_dir: "runs/training"
+
+waste_calculation:
+  formula: "Waste (%) = FoodArea / (PlateArea - GarbageArea) * 100"
+  metric_name: "Estimated Leftover Food Area (%)"
+  plate_class_id: 58
+  garbage_class_ids: [35]
+  ignore_class_ids: [58, 31, 42, 70, 83, 25, 27, 22, 11, 8]
+  min_plate_area_threshold: 1000 # Minimum pixels to consider plate valid
+
+database:
+  db_path: "data/foodwise.db"
+

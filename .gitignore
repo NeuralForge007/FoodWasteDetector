@@ -1,0 +1,53 @@
+# Environment variables, credentials, and API keys
+.env
+.env.local
+.env.development
+.env.production
+*.key
+*.pem
+secrets.yaml
+!.env.example
+
+# Large model checkpoints exceeding GitHub limits (>50MB) and redundant root weights
+models/yolov11-x-weights-v6.pt
+/yolo11*.pt
+*.weights
+
+# Local database and cache files
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+*.db
+*.sqlite
+*.sqlite3
+.mpl_cache/
+reports/.mpl_cache/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Training runs and large temporary logs
+runs/
+*.log
+
+# Operating system and editor artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
